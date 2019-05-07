@@ -1,0 +1,8 @@
+docker build -t="tibbase:1.0.0" ./tibbase/
+docker build -t="tibrv:8.4.6" ./tibrv/  <--here
+docker build -t="tibtra:5.11.0" ./tibtra/
+docker build -t="tibbw:5.14.0" ./tibbw/5.x/
+docker build -t="tibadmin:5.11.0" ./tibadmin/
+docker build -t="tibbw:6.5.1" ./tibbw/6.x/
+docker build -t="tibems:8.4.1" ./tibems/
+docker build -t="tibtea:2.3.0" ./tibtea/
